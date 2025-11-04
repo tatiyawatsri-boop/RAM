@@ -122,9 +122,6 @@
 .text_My_Project_01_01{
     text-align: center;
 }
-.text_My_Project_01_02{
-    margin-left: 2rem;
-}
 .text_My_Project_02_01{
     text-align: center;
 }
@@ -378,4 +375,5 @@
     margin-top: 5rem;
     width: 100%;
     height: 4rem;    
+
 }
