@@ -1,0 +1,381 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar{
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    background-image: url(LogoRAM.png);
+    background-position: center;
+    background-size: cover;
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+
+}
+
+
+.main_personal{
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    background-image: url(49ec05e0-f472-4f9b-b302-7922110c3a7c.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 19rem;
+    margin-top: 6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.profile_text_01{
+    margin-top: 5rem;
+    margin-left:  2rem;
+    flex-direction: column;
+    display: flex;
+}
+.profile_My_skill{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.profile_My_skill_01{
+    background-image: url(HTML5.png);
+    background-color: rgb(240, 239, 239);
+    background-position: center;
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+
+}
+.profile_My_skill_02{
+    background-image: url(CSS.png);
+    background-color: rgb(240, 239, 239);
+    background-position: center;
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+
+}
+.profile_My_skill_03{
+    background-image: url(js.png);
+    background-color: rgb(240, 239, 239);
+    background-position: center;
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+
+}
+.main_Project{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+}
+.main_Project_01{
+    width: 50%;
+    height: 50rem;
+}
+.main_Project_02{
+    width: 50%;
+    height: 50rem;
+    margin-left: 2rem;
+}
+
+.box_main_Project_01{
+    background-image: url(project02.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+    width: 100%;
+    height: 30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box_main_Project_02{
+    background-image: url(project01.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+    width: 100%;
+    height: 30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text_My_Project_01_01{
+    text-align: center;
+}
+.text_My_Project_01_02{
+    margin-left: 2rem;
+}
+.text_My_Project_02_01{
+    text-align: center;
+}
+.text_My_Project{
+    text-align: center;
+    height: 10rem;
+}
+.text_My_Project_01_09{
+    text-align: center;
+    margin-top: 4.5rem;
+
+}
+.text_My_Project_02_09{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.box_project_011{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65rem;
+}
+.box_project_01_01{
+    background-image: url(project02_01.jpg);
+    background-position: center;
+    background-size: cover;    
+    width: 100%;
+    height: 30rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box_project_01_02{
+    background-image: url(project02_02.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+
+
+
+}
+
+
+.box_project_021{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65rem;
+}
+
+.box_project_02_01{
+    background-image: url(project01_01.jpg);
+    background-position: center;
+    background-size: cover;    width: 100%;
+    height: 30rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box_project_02_02{
+    background-image: url(project01_02.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+
+
+}
+
+.certificate_of_honor {
+  background-color: #ffffff;
+  margin-top: 95rem;
+}
+
+.certificate_1{
+    background-image: url(certificate_1.png);
+    background-position: center;
+    background-size: cover;
+    width: 29%;
+    height: 40rem;
+    margin-left: 35.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 3rem;
+}
+.certificate_01{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 32rem;
+    margin-top: 2rem;
+}
+.certificate_01_01{
+    background-image: url(certificate_01_01.png);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 30rem;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.certificate_01_02{
+    background-image: url(certificate_01_02.jpg);
+    background-position: center;
+    background-size: cover;    width: 50%;
+    height: 30rem;
+    border-radius: 2%;
+    margin-left: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.certificate_02{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 37rem;
+}
+.certificate_02_01{
+    background-image: url(certificate_02_01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 30rem;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.certificate_02_02{
+    background-image: url(certificate_02_02.jpg);
+    background-position: center;
+    background-size: cover;    width: 50%;
+    height: 30rem;
+    border-radius: 2%;
+    margin-left: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/* .box_hobby{
+    display: flex;
+    flex-direction: column;
+    height: 1080rem;
+} */
+.box_hobby_01{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.box_hobby_img_01{
+    background-image: url(hobby01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 35rem;
+    border-radius: 2%;
+    margin-left: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box_hobby_text_01{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.box_hobby_02{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+}
+.box_hobby_text_02{
+    margin-top: 3rem;
+}
+.box_hobby_img_02{
+    background-image: url(hobby02.jpg);
+    background-position: center;
+    background-size: cover;    
+    width: 40%;
+    height: 35rem;
+    border-radius: 2%;
+    margin-right: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box_hobby_03{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.box_hobby_img_03{
+    background-image: url(hobby03.jpg);
+    background-position: center;
+    background-size: cover;    
+    width: 40%;    
+    height: 35rem;
+    border-radius: 2%;
+    margin-left: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.box_hobby_text_03{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.box_hobby_04{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+}
+.box_hobby_text_04{
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.box_hobby_img_04{
+    background-image: url(hobby04.jpg.png);
+    background-position: center;
+    background-size: cover;    
+    width: 40rem;
+    height: 35rem;
+    border-radius: 2%;
+    margin-right: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hobby_text_p_l{
+    margin-left: 2rem;
+}
+.hobby_text_p_r{
+    margin-left: 5rem;
+}
+
+.img_gmail{
+    background-image: url(gmail.png);
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    width: 100%;
+    height: 4rem;    
+}
